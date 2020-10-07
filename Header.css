@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    align-items: center; /*flex gets them inline align items center places them in center of div and justify content space between pushes them to sides of each other*/
+    justify-content: space-between;
+    z-index: 100; /* keeps it always at the top */
+    border-bottom: 1px solid #f9f9f9; /*Subtle border bottom of light gray */
+}
+
+.header__logo {
+    object-fit: contain; /*Keeps the aspect ratio of the image*/
+    height: 40px;
+}
+
+.header__icon {
+    padding: 20px;
+}
